@@ -23,6 +23,8 @@ change package name from Gradle>>app module
 
 and then simply click on rebuild project and then build apk/ signed apk.
 
+## Note:  The app needs the policy requirements for acceptable use or is eligible for an exception, you should declare any Call Log or SMS permissions directly through the Play Console.
+
 
 Thanks
 
