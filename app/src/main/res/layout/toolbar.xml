@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_arrow_back"
+        android:foregroundGravity="center_vertical"
+        android:minHeight="30dp"
+        android:minWidth="30dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_tooltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <!--<ImageView
+        android:id="@+id/iv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_more_vert"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/_8sdp"/>-->
+
+
+</android.support.v7.widget.Toolbar>

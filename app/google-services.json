@@ -1,0 +1,672 @@
+{
+  "project_info": {
+    "project_number": "300553548978",
+    "firebase_url": "https://stylish-name-maker-9118e.firebaseio.com",
+    "project_id": "stylish-name-maker-9118e",
+    "storage_bucket": "stylish-name-maker-9118e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:9f4becaf644daf44",
+        "android_client_info": {
+          "package_name": "com.app.hp.ipl2017.supportkkrteam.profilemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-lm10661vjor7bvcgdojjrs6fvkhfvtlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hp.ipl2017.supportkkrteam.profilemaker",
+            "certificate_hash": "c29539ba642f8e294f38ac39854be71cb05a42db"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:54c4057a292ed3a1",
+        "android_client_info": {
+          "package_name": "com.apps.HP.NameMaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-8s16hu4gbeejt6od70nptkg4ai0kh0ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.HP.NameMaker",
+            "certificate_hash": "c6b3e4084dc5305b42cfe91a33d93e99df20e50c"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2086017583390552~3484471228"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:e72b4ae5e1dc4e72",
+        "android_client_info": {
+          "package_name": "com.apps.hp.ChristmasSticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:1f2f24f4a49cad06",
+        "android_client_info": {
+          "package_name": "com.editor.iblinfotech.fancytext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-l47ak4i2ngdmslnb7fiporomurmb0504.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.editor.iblinfotech.fancytext",
+            "certificate_hash": "c29539ba642f8e294f38ac39854be71cb05a42db"
+          }
+        },
+        {
+          "client_id": "300553548978-g4p7sq13ijd1je2a7aku0fg64rbh1d0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.editor.iblinfotech.fancytext",
+            "certificate_hash": "c6b3e4084dc5305b42cfe91a33d93e99df20e50c"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2086017583390552~3328912098"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:2e384fe9ac78079b",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.FatherDaySMS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2086017583390552~2372066425"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:ec57112f3cec4710",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.FathersDaySticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:2d6cda83b88cdf5f",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.bestmothersdayquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:ec537fbbfbe84183",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.happymothersdaygreetingcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-babhgrfl9a14tiu30uo75ecp3t4gotah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibl.apps.happymothersdaygreetingcards",
+            "certificate_hash": "c6b3e4084dc5305b42cfe91a33d93e99df20e50c"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:1707044e3576fc64",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.happymothersdayphotoframes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-0q4knjetigcen9dta1phi301j64ektml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibl.apps.happymothersdayphotoframes",
+            "certificate_hash": "c29539ba642f8e294f38ac39854be71cb05a42db"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:56ccee05d51a4171",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.happymothersdayquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:be3453869757404b",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.mothersdayphotoframes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-tsv34svhbtj9cappjecddl4gkh35ump3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibl.apps.mothersdayphotoframes",
+            "certificate_hash": "c29539ba642f8e294f38ac39854be71cb05a42db"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:f0c011d258835838",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.mothersdayquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:add2e98a39075f1d",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.mothersdaystickers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-m0vcoq93mqc8kk1o7560fvfvp7naahcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibl.apps.mothersdaystickers",
+            "certificate_hash": "c6b3e4084dc5305b42cfe91a33d93e99df20e50c"
+          }
+        },
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:ea976b64b5e2f437",
+        "android_client_info": {
+          "package_name": "com.ibl.apps.myphotokeyboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1041813022220163~5363428661"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:c7d4ec8246dd9b19",
+        "android_client_info": {
+          "package_name": "com.iblinfotech.ChristmasPhotoFrame2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:13cbc34257cc728a",
+        "android_client_info": {
+          "package_name": "com.iblinfotech.app.GroceryStore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:feca3980ca5b37ad",
+        "android_client_info": {
+          "package_name": "com.iblinfotech.apps.WhatsAppDirect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300553548978:android:9f877c2c8ca474a5",
+        "android_client_info": {
+          "package_name": "com.iblinfotech.apps.happyfathersdaygreetingcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300553548978-4puuut4u3eajoov4j0l1dkjhnupl4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MBO09fSmbd8AdbsPGkr6KSApw59IGRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

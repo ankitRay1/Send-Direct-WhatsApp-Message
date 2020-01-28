@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    tools:context=".Activity.MainActivity">
+
+   <!-- <include layout="@layout/toolbar"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Select country code and input WhatsApp number"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_13ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:background="@drawable/background"
+                app:ccp_contentColor="@color/colorPrimaryDark"
+                app:ccp_countryPreference="in,us,ca"
+                app:ccp_hintExampleNumber="true"
+                app:ccp_selectionMemoryTag="getFullNumber"
+                app:ccp_textSize="@dimen/_15sdp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/background">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="Enter WhatsApp number"
+                android:inputType="phone"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_16ssp" />
+
+            <ImageView
+                android:id="@+id/iv_call"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:padding="6dp"
+                ads:srcCompat="@drawable/ic_phone"
+                android:layout_marginRight="@dimen/_5sdp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:layout_toLeftOf="@+id/iv_call"
+                android:background="@color/colorAccent" />
+
+        </RelativeLayout>
+
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="@dimen/_5sdp"
+             android:layout_marginTop="@dimen/_12sdp"
+             android:text="Enter WhatsApp number"
+             android:textColor="@color/colorAccent"
+             android:textSize="@dimen/_12ssp" />-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:drawableRight="@drawable/ic_call_black_24dp"
+                android:hint="Enter WhatsApp number"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_validity"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/tv_validity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="Enter Message"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_15ssp" />
+        -->
+
+        <RelativeLayout
+            android:id="@+id/relative_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@drawable/background">
+
+            <EditText
+                android:id="@+id/edt_textmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:background="@null"
+                android:gravity="left"
+                android:hint="Enter Message"
+                android:inputType="textMultiLine"
+                android:lines="7"
+                android:padding="7dp"
+                android:textColor="#080800"
+                android:textSize="@dimen/_15ssp" />
+
+            <Button
+                android:id="@+id/clearText"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/ic_clear"
+                android:onClick="clear"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <!--    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frame_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    andrbg_mainound="@drawabg_mainound">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/edtxt_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:textColorHint="#979797"
+                        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/edt_textmsg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center_vertical"
+                            android:hint="Enter Message"
+                            android:inputType="textMultiLine"
+                            android:lines="6"
+                            andrbg_mainound="@null"
+                            android:padding="5dp"
+                            android:textColor="#080800"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/clearText"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        andrbg_mainound="@drawable/ic_clear"
+                        android:onClick="clear"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+                &lt;!&ndash; <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                     <View
+                         android:layout_width="match_parent"
+                         android:layout_height="2dp"
+                         android:layout_marginBottom="5dp"/>
+
+                 </RelativeLayout>&ndash;&gt;
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="You can attach media from WhatsApp app's attach button."
+                    android:textColor="#acacac"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="You can attach media from WhatsApp app's attach button."
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_11sdp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardsendMessage"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/send_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="SEND"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_12ssp" />
+
+        </android.support.v7.widget.CardView>
+
+        <!--<RelativeLayout
+            android:id="@+id/native_banner_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_msg" />-->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer">
+
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</LinearLayout>

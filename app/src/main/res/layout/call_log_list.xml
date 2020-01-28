@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/adapter_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="3dp"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_gravity="center_vertical">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_outcall_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_call_made_outgoing"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_incomingcall_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_call_received_2"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/iv_missedcall_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_call_missed_3"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="13dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_NumberMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textSize="@dimen/_12sdp"/>
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="time"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="left"
+                    android:layout_marginLeft="@dimen/_8sdp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#d7d7d7"/>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/txt_NameMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Unknown"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No: " />
+
+            <TextView
+                android:id="@+id/txt_NumberMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Number" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+-->
+</LinearLayout>
