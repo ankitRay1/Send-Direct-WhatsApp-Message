@@ -4,7 +4,7 @@ This application is a great app for WhatsApp Messenger to send messages to any n
 
 ## Trying apk
 
-[Donwload apk here](\app\release\release)
+[Donwload apk here](/app/release/app-release.apk)
 
 Features:
 
