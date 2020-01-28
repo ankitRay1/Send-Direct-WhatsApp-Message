@@ -2,6 +2,10 @@
 
 This application is a great app for WhatsApp Messenger to send messages to any numbers those are not saved in your Contacts.
 
+## Trying apk
+
+[Donwload apk here](\app\release\release)
+
 Features:
 
 1) WhatsApp Direct - You can send message and media directly in WhatsApp without saving contact
