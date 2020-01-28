@@ -16,7 +16,7 @@ Steps for rebuilding:-
 
 change  res>>values>>string.xml>> App Name
 
-change res>>values>>color.cml>> colors
+change res>>values>>color.xml>> colors
 
 
 change package name from Gradle>>app module
